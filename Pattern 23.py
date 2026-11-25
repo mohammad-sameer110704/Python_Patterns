@@ -5,5 +5,5 @@ def pattern23(n):
         print(" "*(n-i)," *"*i)
     for i in range(1,n):
         print(" "*i," *"*(n-i))
-# n = int(input("Enter a number greater than 0 : "))
-# pattern23(n)
+n = int(input("Enter a number greater than 0 : "))
+pattern23(n)
