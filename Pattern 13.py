@@ -3,4 +3,5 @@ def pattern13(n):
         return print("Invalid input, Enter a number greater than 0 ")
     a = 1
     for i in range(n):
-        
+        for j in range(n):
+            pass
