@@ -7,4 +7,5 @@ def pattern13(n):
             print(j,end=" ")
             a += 1
         print("")
-            
+n = int(input("Enter a number greater than 0 : "))
+pattern13(n)    
