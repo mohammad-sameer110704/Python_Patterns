@@ -1,0 +1,1 @@
+def pattern10(self, n):
