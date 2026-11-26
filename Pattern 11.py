@@ -7,4 +7,5 @@ def pattern11(n):
                 pass
             if j % 2 != 0 :
                 pass
-    
+n = int(input("Enter a number greater than 0 : "))
+pattern11(n)
