@@ -4,6 +4,9 @@
 # AB
 # A
 def pattern15(n):
-    pass
+    if n < 1 :
+        return print("Invalid input, Enter a number greater than 0 ")
+    for i in range(n):
+        print()
 n = int(input("Enter a number greater than 0 : "))
-pattern11(n)
+pattern15(n)
