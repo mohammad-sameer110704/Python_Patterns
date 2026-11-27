@@ -7,6 +7,8 @@ def pattern15(n):
     if n < 1 :
         return print("Invalid input, Enter a number greater than 0 ")
     for i in range(n):
-        print()
+        for j in range(n-i):
+            print(chr(65+j),end=" ")
+        print("")
 n = int(input("Enter a number greater than 0 : "))
 pattern15(n)
