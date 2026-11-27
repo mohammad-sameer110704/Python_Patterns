@@ -4,7 +4,7 @@
 # ABCD
 # ABCDE
 
-def pattern15(n):
+def pattern14(n):
     if n < 1 :
         return print("Invalid input, Enter a number greater than 0 ")
     for i in range(n):
@@ -12,4 +12,4 @@ def pattern15(n):
             print(chr(65+j),end=" ")
         print("")
 n = int(input("Enter a number greater than 0 : "))
-pattern15(n)
+pattern14(n)
